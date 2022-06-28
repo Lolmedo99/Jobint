@@ -1,13 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500&family=Quicksand:wght@300;400&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Hind Vadodara", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  margin-bottom: 17.6%;
+}
+html {
+  min-height: 100%;
+  position: relative;
 }
 
 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -17,9 +29,4 @@ a {
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

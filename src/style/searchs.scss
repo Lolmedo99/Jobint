@@ -1,0 +1,94 @@
+.btn-search {
+  background-color: #545561ce;
+  color: white;
+}
+
+.local {
+  color: #eb002bee;
+}
+
+.build {
+  color: #000000;
+}
+
+.work {
+  color: #000cf1;
+}
+
+.clock {
+  color: #00dcd4;
+}
+
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  margin: 5%;
+  margin-left: 20px;
+}
+.card-header {
+  width: 100%;
+  background-color: #000cf1;
+  border-top-left-radius: 30px;
+}
+
+.card-img {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-text {
+  line-height: 1rem;
+  text-align: justify;
+  font-weight: 100;
+  font-family: "Hind Vadodara", sans-serif;
+}
+
+.badge {
+  background-color: #eb0064;
+  width: 5rem;
+}
+
+.badge-pos {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 75rem;
+}
+
+.card-search {
+  background-image: linear-gradient(90deg, #000cf1b2, #eb0066d2);
+  bleed: normal;
+  height: 70px;
+}
+
+.select-container {
+  align-content: center;
+}
+
+.margin-bot {
+  margin-bottom: 10%;
+}
+
+.margin-top {
+  margin-top: 10%;
+  color: #000cf1;
+}
+
+.card-border-radius {
+  border-radius: 10px;
+}
+
+#info-col {
+  margin-left: 50px;
+}
+
+#search-card {
+  width: 50%;
+}

@@ -1,0 +1,54 @@
+.form {
+  max-width: 40%;
+  margin: 3% 30% 2% 30%;
+}
+
+.form-login {
+  max-width: 40%;
+  margin: 5% 25% 2% 30%;
+}
+
+.title-login {
+  text-align: center;
+  margin-right: 3%;
+  margin-top: 4%;
+  color: #eb0064;
+  font-weight: 400;
+}
+
+.btn-form {
+  width: 50%;
+  margin-left: 20%;
+  color: grey;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  background-color: #eb0064;
+  border-color: none;
+  margin-top: 2%;
+}
+
+.btn-register {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.title-register-login {
+  margin-top: 2%;
+  text-align: center;
+  color: #eb0064;
+  font-weight: 400;
+}
+
+.input {
+  border-radius: 5em;
+}
+
+.detalles {
+  color: #eb0064;
+}
+
+.obligatorio {
+  color: #ee3b3b;
+  font-weight: lighter;
+}

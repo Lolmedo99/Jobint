@@ -1,0 +1,78 @@
+/* .porcentaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.number {
+    display: flex;
+    position: relative;
+    margin-right: 50%;
+    justify-content: center;
+    color: #eb0064;
+    font-weight: 500;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.rank-number {
+    margin-bottom: -8rem;
+    margin-right: 44%;
+    margin-top: 14%;
+}
+
+
+svg circle {
+    position: relative;
+    margin-bottom: 0%;
+    fill: none;
+    stroke: #e79595a2;
+    stroke-width: 9;
+    stroke-linecap: round !important;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.box:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 80)/100);
+    stroke: rgb(255, 0, 0);
+} */
+
+.skills-wrapper {
+    display: flex;
+}
+
+.skill {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+
+.skill::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.skill:nth-child(1) {
+    background-image: conic-gradient(#eb0066d8 85%, transparent 0);
+    color: #eb0064;
+}
+
+.skill-content {
+    font-size: 20px;
+    color: #eb0064;
+    z-index: 1;
+}
